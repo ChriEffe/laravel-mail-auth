@@ -20,7 +20,21 @@
 
 <script>
 export default {
-    name: 'header'
+    name: 'Header',
+    data() {
+        return {
+            menuItems: [
+                    {
+                        label: 'Home',
+                        routeName: 'home',
+                    },
+                    {
+                        label: 'Contatti',
+                        routeName: 'contacts',
+                    }
+                ],
+        }
+    }
 }
 </script>
 

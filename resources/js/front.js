@@ -10,13 +10,14 @@ window.Vue = require('vue');
 
 import App from './views/App';
 import Home from "./pages/Home";
-import Contact from "./pages/Contacts";
+import Contacts from "./pages/Contacts";
 import VueRouter from "vue-router";
 import Vue from "vue";
 
 Vue.use(VueRouter);
 
 const router = new VueRouter({
+    mode: 'history',
     routes: [
         {
             path: '/',
