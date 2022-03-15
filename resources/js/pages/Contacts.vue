@@ -36,9 +36,9 @@ export default {
     name: 'Contacts',
     data() {
         return {
-            name: '',
-            email: '',
-            message: '',
+            name: null,
+            email: null,
+            message: null,
             success: false,
             sending: false,
             errors: {}
